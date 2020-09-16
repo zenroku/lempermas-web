@@ -1,0 +1,63 @@
+.products {
+    height: 100vh;
+    margin-top: -90px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container.products {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    align-items: center;
+    height: max-content;
+}
+
+.products > h4 {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--dark-green);
+    text-align: center;
+}
+
+.products > h4::after {
+    content: '';
+    display: inline-block;
+    width: 3%;
+    height: 5px;
+    background: var(--dark-green);
+    border-radius: 50px;
+    margin-bottom: 6px;
+    margin-left: 7px;
+}
+.products > h4::before {
+    content: '';
+    display: inline-block;
+    width: 3%;
+    height: 5px;
+    background: var(--dark-green);
+    border-radius: 50px;
+    margin-bottom: 6px;
+    margin-right: 7px;
+}
+
+@media (max-width: 768px) {
+    .container.products {
+        width: 98%;
+        margin-top: -90px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .products > h4 {
+        font-size: 25px;
+    }
+}
+
+.productNewBadge > .MuiBadge-anchorOriginTopRightRectangle {
+    transform: scale(1) translate(60%, -90%);
+}
+
+.muiCardHeader > .MuiCardHeader-content > .MuiTypography-body2 {
+    font-weight: 500;
+}

@@ -1,0 +1,30 @@
+.dashboardHeader__logo {
+    font-family: var(--logo-font);
+    font-size: 30px;
+    color: var(--light-green);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: 0.3s;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.menuItem {
+    width: 250px;
+}
+
+.dashboardOuterContent {
+    box-sizing: border-box;
+    height: 87vh;
+    width: 100%;
+    margin-top: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media (min-width:576px) {
+    .dashboardOuterContent {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

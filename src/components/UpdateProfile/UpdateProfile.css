@@ -1,0 +1,66 @@
+.updateProfileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    height: max-content;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.updateProfile__card {
+    display: flex;
+    width: 96%;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+}
+
+.updateProfile__card > .MuiCardContent-root {
+    display: flex;
+    align-items: flex-end ;
+}
+
+.updateProfile__form {
+    width: 96%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.updateProfile__textField {
+    width: 80%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.updateProfile__imgDetail:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.updateProfile__upload {
+    display: flex;
+    justify-content: space-around ;
+}
+
+.updatePassword__form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+    min-height: 28vh;
+}

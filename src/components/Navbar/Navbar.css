@@ -1,0 +1,88 @@
+.navbar__logo > h4 {
+    font-family: var(--logo-font);
+    font-size: 30px;
+    color: var(--light-green);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.navbar__scrolled {
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    background: var(--dark-green);
+    box-shadow: 1px 1px 5px 1px var(--dark-green);
+    transition: 0.3s;
+}
+
+
+.navbar__logo:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 5px rgb(58, 150, 107);
+}
+
+.navbar__container {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    position: relative;
+}
+
+
+.navbar__navigation {
+    min-width: 130px;
+}
+
+.navbar__ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 170px;
+    align-items: center;
+}
+
+.navbar__li {
+    font-family: var(--main-font);
+    color: var(--light-green);
+    font-weight: bold;
+    text-align: center; 
+    position: relative;
+    margin: auto;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.navbar__li:hover {
+    cursor: pointer;
+}
+
+.nav--active > li.navbar__li::after {
+    opacity: 1;
+}
+
+.navbar__li:hover::after {
+    opacity: 1;
+}
+
+.navbar__li::after{
+    content: '';
+    left: 0;
+    margin-top: 25px;
+    margin-left: -3%;
+    background: rgb(58, 150, 107);
+    position: absolute;
+    width: 110%;
+    height: 4px;
+    border-radius: 100px;
+    opacity: 0;
+    transition: 0.3s;
+}

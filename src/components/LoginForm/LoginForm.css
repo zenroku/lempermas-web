@@ -1,0 +1,16 @@
+.login {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+.loginForm__logo {
+    font-family: var(--logo-font);
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
